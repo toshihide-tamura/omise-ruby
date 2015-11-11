@@ -24,4 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "minitest", "~> 5.4.2"
+  spec.add_development_dependency "yard"
+  spec.add_development_dependency "redcarpet"
+  spec.add_development_dependency "github-markup"
 end
